@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Simplified Twitter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Make the New Twitter cleaner by removing the right column and making the menu smaller",
   "short_name": "Simplified Twitter",
   "permissions": ["tabs"],
