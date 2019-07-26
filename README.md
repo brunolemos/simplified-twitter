@@ -1,8 +1,11 @@
 # Simplified Twitter
 
-## The new Twitter, without distractions 
+## The new Twitter, without distractions
 
-Download: [Chrome extension](https://chrome.google.com/webstore/detail/simplified-twitter/kfopmjhmejbgomgeajemgpgpbckpoopg)
+Download the extension for:
+
+- [Chrome](https://chrome.google.com/webstore/detail/simplified-twitter/kfopmjhmejbgomgeajemgpgpbckpoopg)
+- [Other Chromium browsers](https://github.com/brunolemos/simplified-twitter/raw/master/simplified-twitter-extension.crx) (Opera, Brave, etc)
 
 ![comparison](./assets/comparison.gif)
 
