@@ -5,8 +5,8 @@
 #### Download the extension for:
 
 - [Chrome](https://chrome.google.com/webstore/detail/simplified-twitter/kfopmjhmejbgomgeajemgpgpbckpoopg)
-- [Other Chromium browsers](https://github.com/brunolemos/simplified-twitter/raw/master/simplified-twitter-extension.crx) (Opera, Brave, etc)
-- Firefox ([help wanted](https://github.com/brunolemos/simplified-twitter/issues/1))
+- [Other Chromium browsers](https://github.com/brunolemos/simplified-twitter/raw/master/chrome/simplified-twitter-extension.crx) (Opera, Brave, etc)
+- [Firefox](https://github.com/brunolemos/simplified-twitter/raw/master/firefox/simplified-twitter-extension.xpi)
 - Safari ([help wanted](https://github.com/brunolemos/simplified-twitter/issues/2))
 
 #### Why is this better than the alternatives?
@@ -19,7 +19,7 @@ This extension tricks Twitter to think the window is smaller, and Twitter adjust
 
 > "I've tried a lot of similar extensions, and this one provides the best result."
 
-> "[Literally 10/10](https://twitter.com/luiznickeI/status/1154377088251650050?s=20)"
+> "Literally 10/10"
 
 #### Screenshot
 
