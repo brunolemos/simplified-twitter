@@ -6,7 +6,7 @@
 
 - [Chrome](https://chrome.google.com/webstore/detail/simplified-twitter/kfopmjhmejbgomgeajemgpgpbckpoopg)
 - [Other Chromium browsers](https://github.com/brunolemos/simplified-twitter/raw/master/chrome/simplified-twitter-extension.crx) (Opera, Brave, etc)
-- [Firefox](https://github.com/brunolemos/simplified-twitter/raw/master/firefox/simplified-twitter-extension.xpi)
+- [Firefox](https://addons.mozilla.org/en-US/firefox/addon/simplified-twitter/)
 - Safari ([help wanted](https://github.com/brunolemos/simplified-twitter/issues/2))
 
 #### Why is this better than the alternatives?
