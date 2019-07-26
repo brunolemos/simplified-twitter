@@ -9,7 +9,9 @@ Download the extension for:
 - Firefox ([help wanted](https://github.com/brunolemos/simplified-twitter/issues/1))
 - Safari ([help wanted](https://github.com/brunolemos/simplified-twitter/issues/2))
 
-![comparison](./assets/comparison.gif)
+[![comparison](./assets/comparison.gif)](https://twitter.com/brunolemos/status/1154309740694003713?s=20)
+
+See [tweet](https://twitter.com/brunolemos/status/1154309740694003713?s=20)
 
 ## Author
 
