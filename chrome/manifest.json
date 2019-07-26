@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Simplified Twitter",
+  "version": "1.0.1",
+  "description": "Remove distractions from the new Twitter layout",
+  "short_name": "Simplified Twitter",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "all_frames": true,
+      "matches": ["https://twitter.com/*", "https://mobile.twitter.com/*"],
+      "js": ["index.js"]
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "96": "icons/icon96.png",
+    "128": "icons/icon128.png"
+  }
+}
