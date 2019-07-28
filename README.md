@@ -9,6 +9,11 @@
 - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/simplified-twitter/)
 - Safari ([help wanted](https://github.com/brunolemos/simplified-twitter/issues/2))
 
+#### Other links:
+
+- [Tweet](https://twitter.com/brunolemos/status/1154309740694003713?s=20)
+- [Product Hunt](https://www.producthunt.com/posts/simplified-twitter)
+
 #### Why is this better than the alternatives?
 
 1. They all make the same mistake: Mess with CSS and make some things worse. Some add shadows, some add distracting hover effects, some move buttons too far away from the center.
@@ -24,8 +29,6 @@ This extension tricks Twitter to think the window is smaller, and Twitter adjust
 #### Screenshot
 
 [![comparison](./assets/comparison.gif)](https://twitter.com/brunolemos/status/1154309740694003713?s=20)
-
-See [tweet](https://twitter.com/brunolemos/status/1154309740694003713?s=20)
 
 ### Author
 
