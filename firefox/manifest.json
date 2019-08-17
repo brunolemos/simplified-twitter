@@ -7,7 +7,6 @@
   "permissions": [],
   "content_scripts": [
     {
-      "all_frames": true,
       "matches": ["https://twitter.com/*", "https://mobile.twitter.com/*"],
       "js": ["inject.js", "script.js"]
     }
