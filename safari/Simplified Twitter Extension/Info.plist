@@ -32,6 +32,10 @@
 		<array>
 			<dict>
 				<key>Script</key>
+				<string>inject.js</string>
+			</dict>
+			<dict>
+				<key>Script</key>
 				<string>script.js</string>
 			</dict>
 		</array>
@@ -50,7 +54,7 @@
 		<dict>
 			<key>Allowed Domains</key>
 			<array>
-				<string>*.webkit.org</string>
+				<string>*.twitter.com</string>
 			</array>
 			<key>Level</key>
 			<string>Some</string>
