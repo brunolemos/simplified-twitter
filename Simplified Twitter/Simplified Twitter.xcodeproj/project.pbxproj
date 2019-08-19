@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDD83F75230ABB910034865C /* Simplified_Twitter.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = EDD83F74230ABB910034865C /* Simplified_Twitter.entitlements */; };
+		EDD83F77230ABB910034865C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD83F76230ABB910034865C /* AppDelegate.swift */; };
+		EDD83F7A230ABB910034865C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDD83F78230ABB910034865C /* Main.storyboard */; };
+		EDD83F7C230ABB910034865C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD83F7B230ABB910034865C /* ViewController.swift */; };
+		EDD83F7E230ABB910034865C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDD83F7D230ABB910034865C /* Assets.xcassets */; };
+		EDD83F85230ABB920034865C /* Simplified Twitter Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EDD83F84230ABB920034865C /* Simplified Twitter Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EDD83F8A230ABB920034865C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDD83F89230ABB920034865C /* Cocoa.framework */; };
+		EDD83F8D230ABB920034865C /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD83F8C230ABB920034865C /* SafariExtensionHandler.swift */; };
+		EDD83F8F230ABB920034865C /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD83F8E230ABB920034865C /* SafariExtensionViewController.swift */; };
+		EDD83F92230ABB920034865C /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDD83F90230ABB920034865C /* SafariExtensionViewController.xib */; };
+		EDD83F95230ABB920034865C /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = EDD83F94230ABB920034865C /* script.js */; };
+		EDD83F97230ABB920034865C /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EDD83F96230ABB920034865C /* ToolbarItemIcon.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDD83F86230ABB920034865C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDD83F69230ABB910034865C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDD83F83230ABB920034865C;
+			remoteInfo = "Simplified Twitter Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EDD83F9E230ABB920034865C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EDD83F85230ABB920034865C /* Simplified Twitter Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EDD83F71230ABB910034865C /* Simplified Twitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simplified Twitter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDD83F74230ABB910034865C /* Simplified_Twitter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Simplified_Twitter.entitlements; sourceTree = "<group>"; };
+		EDD83F76230ABB910034865C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDD83F79230ABB910034865C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDD83F7B230ABB910034865C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDD83F7D230ABB910034865C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDD83F7F230ABB910034865C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDD83F84230ABB920034865C /* Simplified Twitter Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Simplified Twitter Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDD83F89230ABB920034865C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		EDD83F8C230ABB920034865C /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		EDD83F8E230ABB920034865C /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
+		EDD83F91230ABB920034865C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
+		EDD83F93230ABB920034865C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDD83F94230ABB920034865C /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		EDD83F96230ABB920034865C /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
+		EDD83F98230ABB920034865C /* Simplified_Twitter_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Simplified_Twitter_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDD83F6E230ABB910034865C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD83F81230ABB920034865C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD83F8A230ABB920034865C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDD83F68230ABB910034865C = {
+			isa = PBXGroup;
+			children = (
+				EDD83F73230ABB910034865C /* Simplified Twitter */,
+				EDD83F8B230ABB920034865C /* Simplified Twitter Extension */,
+				EDD83F88230ABB920034865C /* Frameworks */,
+				EDD83F72230ABB910034865C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDD83F72230ABB910034865C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDD83F71230ABB910034865C /* Simplified Twitter.app */,
+				EDD83F84230ABB920034865C /* Simplified Twitter Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDD83F73230ABB910034865C /* Simplified Twitter */ = {
+			isa = PBXGroup;
+			children = (
+				EDD83F74230ABB910034865C /* Simplified_Twitter.entitlements */,
+				EDD83F76230ABB910034865C /* AppDelegate.swift */,
+				EDD83F78230ABB910034865C /* Main.storyboard */,
+				EDD83F7B230ABB910034865C /* ViewController.swift */,
+				EDD83F7D230ABB910034865C /* Assets.xcassets */,
+				EDD83F7F230ABB910034865C /* Info.plist */,
+			);
+			path = "Simplified Twitter";
+			sourceTree = "<group>";
+		};
+		EDD83F88230ABB920034865C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDD83F89230ABB920034865C /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDD83F8B230ABB920034865C /* Simplified Twitter Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EDD83F8C230ABB920034865C /* SafariExtensionHandler.swift */,
+				EDD83F8E230ABB920034865C /* SafariExtensionViewController.swift */,
+				EDD83F90230ABB920034865C /* SafariExtensionViewController.xib */,
+				EDD83F93230ABB920034865C /* Info.plist */,
+				EDD83F94230ABB920034865C /* script.js */,
+				EDD83F96230ABB920034865C /* ToolbarItemIcon.pdf */,
+				EDD83F98230ABB920034865C /* Simplified_Twitter_Extension.entitlements */,
+			);
+			path = "Simplified Twitter Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDD83F70230ABB910034865C /* Simplified Twitter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDD83F9F230ABB920034865C /* Build configuration list for PBXNativeTarget "Simplified Twitter" */;
+			buildPhases = (
+				EDD83F6D230ABB910034865C /* Sources */,
+				EDD83F6E230ABB910034865C /* Frameworks */,
+				EDD83F6F230ABB910034865C /* Resources */,
+				EDD83F9E230ABB920034865C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDD83F87230ABB920034865C /* PBXTargetDependency */,
+			);
+			name = "Simplified Twitter";
+			productName = "Simplified Twitter";
+			productReference = EDD83F71230ABB910034865C /* Simplified Twitter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDD83F83230ABB920034865C /* Simplified Twitter Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDD83F9B230ABB920034865C /* Build configuration list for PBXNativeTarget "Simplified Twitter Extension" */;
+			buildPhases = (
+				EDD83F80230ABB920034865C /* Sources */,
+				EDD83F81230ABB920034865C /* Frameworks */,
+				EDD83F82230ABB920034865C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Simplified Twitter Extension";
+			productName = "Simplified Twitter Extension";
+			productReference = EDD83F84230ABB920034865C /* Simplified Twitter Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDD83F69230ABB910034865C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Dirk Hulverscheidt";
+				TargetAttributes = {
+					EDD83F70230ABB910034865C = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					EDD83F83230ABB920034865C = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = EDD83F6C230ABB910034865C /* Build configuration list for PBXProject "Simplified Twitter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDD83F68230ABB910034865C;
+			productRefGroup = EDD83F72230ABB910034865C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDD83F70230ABB910034865C /* Simplified Twitter */,
+				EDD83F83230ABB920034865C /* Simplified Twitter Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDD83F6F230ABB910034865C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD83F75230ABB910034865C /* Simplified_Twitter.entitlements in Resources */,
+				EDD83F7E230ABB910034865C /* Assets.xcassets in Resources */,
+				EDD83F7A230ABB910034865C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD83F82230ABB920034865C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD83F97230ABB920034865C /* ToolbarItemIcon.pdf in Resources */,
+				EDD83F92230ABB920034865C /* SafariExtensionViewController.xib in Resources */,
+				EDD83F95230ABB920034865C /* script.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDD83F6D230ABB910034865C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD83F7C230ABB910034865C /* ViewController.swift in Sources */,
+				EDD83F77230ABB910034865C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD83F80230ABB920034865C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD83F8F230ABB920034865C /* SafariExtensionViewController.swift in Sources */,
+				EDD83F8D230ABB920034865C /* SafariExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDD83F87230ABB920034865C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDD83F83230ABB920034865C /* Simplified Twitter Extension */;
+			targetProxy = EDD83F86230ABB920034865C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDD83F78230ABB910034865C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDD83F79230ABB910034865C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDD83F90230ABB920034865C /* SafariExtensionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDD83F91230ABB920034865C /* Base */,
+			);
+			name = SafariExtensionViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDD83F99230ABB920034865C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDD83F9A230ABB920034865C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EDD83F9C230ABB920034865C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Simplified Twitter Extension/Simplified_Twitter_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BN988BU552;
+				INFOPLIST_FILE = "Simplified Twitter Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hulverscheidtdirk.Simplified-Twitter-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EDD83F9D230ABB920034865C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Simplified Twitter Extension/Simplified_Twitter_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BN988BU552;
+				INFOPLIST_FILE = "Simplified Twitter Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hulverscheidtdirk.Simplified-Twitter-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EDD83FA0230ABB920034865C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Simplified Twitter/Simplified_Twitter.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = BN988BU552;
+				INFOPLIST_FILE = "Simplified Twitter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hulverscheidtdirk.Simplified-Twitter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EDD83FA1230ABB920034865C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Simplified Twitter/Simplified_Twitter.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = BN988BU552;
+				INFOPLIST_FILE = "Simplified Twitter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hulverscheidtdirk.Simplified-Twitter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDD83F6C230ABB910034865C /* Build configuration list for PBXProject "Simplified Twitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD83F99230ABB920034865C /* Debug */,
+				EDD83F9A230ABB920034865C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDD83F9B230ABB920034865C /* Build configuration list for PBXNativeTarget "Simplified Twitter Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD83F9C230ABB920034865C /* Debug */,
+				EDD83F9D230ABB920034865C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDD83F9F230ABB920034865C /* Build configuration list for PBXNativeTarget "Simplified Twitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDD83FA0230ABB920034865C /* Debug */,
+				EDD83FA1230ABB920034865C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDD83F69230ABB910034865C /* Project object */;
+}
