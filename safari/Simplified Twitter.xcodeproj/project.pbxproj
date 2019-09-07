@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EC93B622324620800A6215F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDD83F7D230ABB910034865C /* Assets.xcassets */; };
 		ED65712A230ACC07003FCC27 /* inject.js in Resources */ = {isa = PBXBuildFile; fileRef = ED657129230ACC07003FCC27 /* inject.js */; };
 		EDD83F75230ABB910034865C /* Simplified_Twitter.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = EDD83F74230ABB910034865C /* Simplified_Twitter.entitlements */; };
 		EDD83F77230ABB910034865C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD83F76230ABB910034865C /* AppDelegate.swift */; };
@@ -235,6 +236,7 @@
 				ED65712A230ACC07003FCC27 /* inject.js in Resources */,
 				EDD83F92230ABB920034865C /* SafariExtensionViewController.xib in Resources */,
 				EDD83F95230ABB920034865C /* script.js in Resources */,
+				2EC93B622324620800A6215F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
