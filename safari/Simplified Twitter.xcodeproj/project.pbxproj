@@ -411,7 +411,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Simplified Twitter Extension/Simplified_Twitter_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JNXGJS86YQ;
+				DEVELOPMENT_TEAM = BN988BU552;
 				INFOPLIST_FILE = "Simplified Twitter Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -431,7 +431,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Simplified Twitter Extension/Simplified_Twitter_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JNXGJS86YQ;
+				DEVELOPMENT_TEAM = BN988BU552;
 				INFOPLIST_FILE = "Simplified Twitter Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,7 +454,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Simplified Twitter/Simplified_Twitter.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = JNXGJS86YQ;
+				DEVELOPMENT_TEAM = BN988BU552;
 				INFOPLIST_FILE = "Simplified Twitter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -475,7 +475,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Simplified Twitter/Simplified_Twitter.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = JNXGJS86YQ;
+				DEVELOPMENT_TEAM = BN988BU552;
 				INFOPLIST_FILE = "Simplified Twitter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
