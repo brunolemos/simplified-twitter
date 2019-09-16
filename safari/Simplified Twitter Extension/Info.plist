@@ -63,6 +63,7 @@
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2019 Dirk Hulverscheidt. All rights reserved.</string>
 	<key>NSHumanReadableDescription</key>
-	<string>This is a Safari Extension. You should tell us what your extension does here.</string>
+	<string>Remove distractions from the new twitter.
+</string>
 </dict>
 </plist>
