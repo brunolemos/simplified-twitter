@@ -7,7 +7,7 @@
 - [Chrome](https://chrome.google.com/webstore/detail/simplified-twitter/kfopmjhmejbgomgeajemgpgpbckpoopg)
 - [Other Chromium browsers](https://github.com/brunolemos/simplified-twitter/raw/master/chrome/simplified-twitter-extension.crx) (Opera, Brave, etc)
 - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/simplified-twitter/)
-- Safari ([help wanted](https://github.com/brunolemos/simplified-twitter/issues/2))
+- [Safari](https://apps.apple.com/app/id1479307973?mt=12)
 
 #### Other links:
 
@@ -28,7 +28,7 @@ This extension tricks Twitter to think the window is smaller, and Twitter adjust
 
 #### Screenshot
 
-[![comparison](./assets/comparison.gif)](https://twitter.com/brunolemos/status/1154309740694003713?s=20)
+[![simplified-twitter-comparison-gif](./assets/simplified-twitter-safari.gif)](https://twitter.com/brunolemos/status/1154309740694003713?s=20)
 
 ### Author
 
