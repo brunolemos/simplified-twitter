@@ -419,7 +419,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = org.brunolemos.simplifiedtwitter;
+				PRODUCT_BUNDLE_IDENTIFIER = org.brunolemos.simplifiedtwitter.extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -439,7 +439,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = org.brunolemos.simplifiedtwitter;
+				PRODUCT_BUNDLE_IDENTIFIER = org.brunolemos.simplifiedtwitter.extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
