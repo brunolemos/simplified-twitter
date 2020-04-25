@@ -1,4 +1,4 @@
-;(function() {
+;(function () {
   const b = typeof browser !== 'undefined' ? browser : chrome
 
   const script = document.createElement('script')

@@ -7,8 +7,13 @@
   "permissions": [],
   "content_scripts": [
     {
-      "matches": ["https://twitter.com/*", "https://mobile.twitter.com/*"],
-      "js": ["index.js"]
+      "matches": [
+        "https://twitter.com/*",
+        "https://mobile.twitter.com/*"
+      ],
+      "js": [
+        "index.js"
+      ]
     }
   ],
   "icons": {
