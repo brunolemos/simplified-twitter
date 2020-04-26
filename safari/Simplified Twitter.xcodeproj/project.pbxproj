@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E9C7D2524550A05008D393A /* styles.css in Resources */ = {isa = PBXBuildFile; fileRef = 2E9C7D2424550A05008D393A /* styles.css */; };
 		2EC93B622324620800A6215F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDD83F7D230ABB910034865C /* Assets.xcassets */; };
 		ED65712A230ACC07003FCC27 /* inject.js in Resources */ = {isa = PBXBuildFile; fileRef = ED657129230ACC07003FCC27 /* inject.js */; };
 		EDD83F75230ABB910034865C /* Simplified_Twitter.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = EDD83F74230ABB910034865C /* Simplified_Twitter.entitlements */; };
@@ -48,6 +49,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2E9C7D2424550A05008D393A /* styles.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = styles.css; sourceTree = "<group>"; };
 		ED657129230ACC07003FCC27 /* inject.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = inject.js; sourceTree = "<group>"; };
 		EDD83F71230ABB910034865C /* Simplified Twitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simplified Twitter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDD83F74230ABB910034865C /* Simplified_Twitter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Simplified_Twitter.entitlements; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				EDD83F8E230ABB920034865C /* SafariExtensionViewController.swift */,
 				EDD83F90230ABB920034865C /* SafariExtensionViewController.xib */,
 				EDD83F93230ABB920034865C /* Info.plist */,
+				2E9C7D2424550A05008D393A /* styles.css */,
 				EDD83F94230ABB920034865C /* script.js */,
 				ED657129230ACC07003FCC27 /* inject.js */,
 				EDD83F96230ABB920034865C /* ToolbarItemIcon.pdf */,
@@ -235,6 +238,7 @@
 				EDD83F97230ABB920034865C /* ToolbarItemIcon.pdf in Resources */,
 				ED65712A230ACC07003FCC27 /* inject.js in Resources */,
 				EDD83F92230ABB920034865C /* SafariExtensionViewController.xib in Resources */,
+				2E9C7D2524550A05008D393A /* styles.css in Resources */,
 				EDD83F95230ABB920034865C /* script.js in Resources */,
 				2EC93B622324620800A6215F /* Assets.xcassets in Resources */,
 			);

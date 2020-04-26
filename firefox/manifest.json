@@ -11,6 +11,9 @@
         "https://twitter.com/*",
         "https://mobile.twitter.com/*"
       ],
+      "css": [
+        "styles.css"
+      ],
       "js": [
         "inject.js",
         "script.js"
