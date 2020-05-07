@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Simplified Twitter
+//  Simplified for Twitter
 //
 //  Created by Bruce Roettgers on 19.08.19.
 //  Copyright © 2019 Dirk Hulverscheidt. All rights reserved.
@@ -15,7 +15,7 @@ class ViewController: NSViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.appNameLabel.stringValue = "Simplified Twitter";
+        self.appNameLabel.stringValue = "Simplified for Twitter";
     }
     
     @IBAction func openSafariExtensionPreferences(_ sender: AnyObject?) {

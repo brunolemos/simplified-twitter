@@ -1,6 +1,6 @@
 //
 //  SafariExtensionViewController.swift
-//  Simplified Twitter Extension
+//  Simplified for Twitter Extension
 //
 //  Created by Bruce Roettgers on 19.08.19.
 //  Copyright © 2019 Dirk Hulverscheidt. All rights reserved.
