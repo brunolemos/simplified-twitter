@@ -1,16 +1,17 @@
 ;(function () {
   function script() {
-    function update(win = window) {
-      window.innerWidth = Math.min(win.outerWidth, 800)
+    function update() {
+      const innerWidth = Math.min(window.outerWidth || 0, 800)
+      if (window.innerWidth === innerWidth) return
+
+      window.innerWidth = innerWidth
+      window.dispatchEvent(new Event('resize'))
     }
 
-    function triggerUpdate() {
-      setTimeout(() => window.dispatchEvent(new Event('resize')), 1)
-    }
-
-    window.onresize = (e) => update(e.target || window)
-    window.onload = triggerUpdate
-    document.addEventListener('visibilitychange', triggerUpdate)
+    window.addEventListener('load', update)
+    window.addEventListener('resize', update)
+    document.addEventListener('visibilitychange', update)
+    update()
   }
 
   function inject(fn) {
