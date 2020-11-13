@@ -28,7 +28,7 @@ This extension tricks Twitter to think the window is smaller, and Twitter adjust
 
 #### Screenshot
 
-[![simplified-twitter-comparison-gif](./assets/simplified-twitter-safari.gif)](https://twitter.com/brunolemos/status/1154309740694003713?s=20)
+[![simplified-twitter-comparison-gif](./assets/screenshot.gif)](https://twitter.com/brunolemos/status/1154309740694003713?s=20)
 
 ### Author
 
