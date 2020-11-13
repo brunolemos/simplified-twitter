@@ -2,12 +2,15 @@
 //  ViewController.swift
 //  Simplified Twitter
 //
-//  Created by Bruce Roettgers on 19.08.19.
-//  Copyright © 2019 Dirk Hulverscheidt. All rights reserved.
+//  Created by Bruno Lemos on 13/11/20.
 //
 
 import Cocoa
 import SafariServices.SFSafariApplication
+import SafariServices.SFSafariExtensionManager
+
+let appName = "Simplified Twitter"
+let extensionBundleIdentifier = "org.brunolemos.simplifiedtwitter.extension"
 
 class ViewController: NSViewController {
 
@@ -15,14 +18,32 @@ class ViewController: NSViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.appNameLabel.stringValue = "Simplified Twitter";
+        self.appNameLabel.stringValue = appName
+        SFSafariExtensionManager.getStateOfSafariExtension(withIdentifier: extensionBundleIdentifier) { (state, error) in
+            guard let state = state, error == nil else {
+                // Insert code to inform the user that something went wrong.
+                return
+            }
+
+            DispatchQueue.main.async {
+                if (state.isEnabled) {
+                    self.appNameLabel.stringValue = "\(appName)'s extension is currently on."
+                } else {
+                    self.appNameLabel.stringValue = "\(appName)'s extension is currently off. You can turn it on in Safari Extensions preferences."
+                }
+            }
+        }
     }
     
     @IBAction func openSafariExtensionPreferences(_ sender: AnyObject?) {
-        SFSafariApplication.showPreferencesForExtension(withIdentifier: "org.brunolemos.simplifiedtwitter.extension") { error in
-            if let _ = error {
+        SFSafariApplication.showPreferencesForExtension(withIdentifier: extensionBundleIdentifier) { error in
+            guard error == nil else {
                 // Insert code to inform the user that something went wrong.
+                return
+            }
 
+            DispatchQueue.main.async {
+                NSApplication.shared.terminate(nil)
             }
         }
     }
