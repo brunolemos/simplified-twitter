@@ -10,7 +10,6 @@
 		2E9C7D2524550A05008D393A /* styles.css in Resources */ = {isa = PBXBuildFile; fileRef = 2E9C7D2424550A05008D393A /* styles.css */; };
 		2EC93B622324620800A6215F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDD83F7D230ABB910034865C /* Assets.xcassets */; };
 		ED65712A230ACC07003FCC27 /* inject.js in Resources */ = {isa = PBXBuildFile; fileRef = ED657129230ACC07003FCC27 /* inject.js */; };
-		EDD83F75230ABB910034865C /* Simplified_Twitter.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = EDD83F74230ABB910034865C /* Simplified_Twitter.entitlements */; };
 		EDD83F77230ABB910034865C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD83F76230ABB910034865C /* AppDelegate.swift */; };
 		EDD83F7A230ABB910034865C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDD83F78230ABB910034865C /* Main.storyboard */; };
 		EDD83F7C230ABB910034865C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD83F7B230ABB910034865C /* ViewController.swift */; };
@@ -190,7 +189,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1030;
-				LastUpgradeCheck = 1030;
+				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = "Dirk Hulverscheidt";
 				TargetAttributes = {
 					EDD83F70230ABB910034865C = {
@@ -225,7 +224,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDD83F75230ABB910034865C /* Simplified_Twitter.entitlements in Resources */,
 				EDD83F7E230ABB910034865C /* Assets.xcassets in Resources */,
 				EDD83F7A230ABB910034865C /* Main.storyboard in Resources */,
 			);
@@ -321,6 +319,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -346,7 +345,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -382,6 +381,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -401,7 +401,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -423,7 +423,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MARKETING_VERSION = 1.5.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.brunolemos.simplifiedtwitter.extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -445,7 +445,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MARKETING_VERSION = 1.5.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.brunolemos.simplifiedtwitter.extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -469,7 +469,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MARKETING_VERSION = 1.5.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.brunolemos.simplifiedtwitter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -492,7 +492,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MARKETING_VERSION = 1.5.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.brunolemos.simplifiedtwitter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
