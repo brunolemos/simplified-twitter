@@ -15,7 +15,7 @@
 		EDD83F7A230ABB910034865C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDD83F78230ABB910034865C /* Main.storyboard */; };
 		EDD83F7C230ABB910034865C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD83F7B230ABB910034865C /* ViewController.swift */; };
 		EDD83F7E230ABB910034865C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDD83F7D230ABB910034865C /* Assets.xcassets */; };
-		EDD83F85230ABB920034865C /* Simplified for Twitter Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EDD83F84230ABB920034865C /* Simplified for Twitter Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EDD83F85230ABB920034865C /* Simplified Twitter Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EDD83F84230ABB920034865C /* Simplified Twitter Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		EDD83F8A230ABB920034865C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDD83F89230ABB920034865C /* Cocoa.framework */; };
 		EDD83F8D230ABB920034865C /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD83F8C230ABB920034865C /* SafariExtensionHandler.swift */; };
 		EDD83F8F230ABB920034865C /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD83F8E230ABB920034865C /* SafariExtensionViewController.swift */; };
@@ -30,7 +30,7 @@
 			containerPortal = EDD83F69230ABB910034865C /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = EDD83F83230ABB920034865C;
-			remoteInfo = "Simplified for Twitter Extension";
+			remoteInfo = "Simplified Twitter";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -41,7 +41,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				EDD83F85230ABB920034865C /* Simplified for Twitter Extension.appex in Embed App Extensions */,
+				EDD83F85230ABB920034865C /* Simplified Twitter Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -51,14 +51,14 @@
 /* Begin PBXFileReference section */
 		2E9C7D2424550A05008D393A /* styles.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = styles.css; sourceTree = "<group>"; };
 		ED657129230ACC07003FCC27 /* inject.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = inject.js; sourceTree = "<group>"; };
-		EDD83F71230ABB910034865C /* Simplified for Twitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simplified for Twitter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDD83F71230ABB910034865C /* Simplified Twitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simplified Twitter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDD83F74230ABB910034865C /* Simplified_Twitter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Simplified_Twitter.entitlements; sourceTree = "<group>"; };
 		EDD83F76230ABB910034865C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDD83F79230ABB910034865C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EDD83F7B230ABB910034865C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EDD83F7D230ABB910034865C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDD83F7F230ABB910034865C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EDD83F84230ABB920034865C /* Simplified for Twitter Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Simplified for Twitter Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDD83F84230ABB920034865C /* Simplified Twitter Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Simplified Twitter Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDD83F89230ABB920034865C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		EDD83F8C230ABB920034865C /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
 		EDD83F8E230ABB920034865C /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
@@ -91,8 +91,8 @@
 		EDD83F68230ABB910034865C = {
 			isa = PBXGroup;
 			children = (
-				EDD83F73230ABB910034865C /* Simplified for Twitter */,
-				EDD83F8B230ABB920034865C /* Simplified for Twitter Extension */,
+				EDD83F73230ABB910034865C /* Simplified Twitter */,
+				EDD83F8B230ABB920034865C /* Simplified Twitter Extension */,
 				EDD83F88230ABB920034865C /* Frameworks */,
 				EDD83F72230ABB910034865C /* Products */,
 			);
@@ -101,13 +101,13 @@
 		EDD83F72230ABB910034865C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EDD83F71230ABB910034865C /* Simplified for Twitter.app */,
-				EDD83F84230ABB920034865C /* Simplified for Twitter Extension.appex */,
+				EDD83F71230ABB910034865C /* Simplified Twitter.app */,
+				EDD83F84230ABB920034865C /* Simplified Twitter Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EDD83F73230ABB910034865C /* Simplified for Twitter */ = {
+		EDD83F73230ABB910034865C /* Simplified Twitter */ = {
 			isa = PBXGroup;
 			children = (
 				EDD83F74230ABB910034865C /* Simplified_Twitter.entitlements */,
@@ -117,7 +117,7 @@
 				EDD83F7D230ABB910034865C /* Assets.xcassets */,
 				EDD83F7F230ABB910034865C /* Info.plist */,
 			);
-			path = "Simplified for Twitter";
+			path = "Simplified Twitter";
 			sourceTree = "<group>";
 		};
 		EDD83F88230ABB920034865C /* Frameworks */ = {
@@ -128,7 +128,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EDD83F8B230ABB920034865C /* Simplified for Twitter Extension */ = {
+		EDD83F8B230ABB920034865C /* Simplified Twitter Extension */ = {
 			isa = PBXGroup;
 			children = (
 				EDD83F8C230ABB920034865C /* SafariExtensionHandler.swift */,
@@ -141,15 +141,15 @@
 				EDD83F96230ABB920034865C /* ToolbarItemIcon.pdf */,
 				EDD83F98230ABB920034865C /* Simplified_Twitter_Extension.entitlements */,
 			);
-			path = "Simplified for Twitter Extension";
+			path = "Simplified Twitter Extension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EDD83F70230ABB910034865C /* Simplified for Twitter */ = {
+		EDD83F70230ABB910034865C /* Simplified Twitter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EDD83F9F230ABB920034865C /* Build configuration list for PBXNativeTarget "Simplified for Twitter" */;
+			buildConfigurationList = EDD83F9F230ABB920034865C /* Build configuration list for PBXNativeTarget "Simplified Twitter" */;
 			buildPhases = (
 				EDD83F6D230ABB910034865C /* Sources */,
 				EDD83F6E230ABB910034865C /* Frameworks */,
@@ -161,14 +161,14 @@
 			dependencies = (
 				EDD83F87230ABB920034865C /* PBXTargetDependency */,
 			);
-			name = "Simplified for Twitter";
-			productName = "Simplified for Twitter";
-			productReference = EDD83F71230ABB910034865C /* Simplified for Twitter.app */;
+			name = "Simplified Twitter";
+			productName = "Simplified Twitter";
+			productReference = EDD83F71230ABB910034865C /* Simplified Twitter.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EDD83F83230ABB920034865C /* Simplified for Twitter Extension */ = {
+		EDD83F83230ABB920034865C /* Simplified Twitter Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EDD83F9B230ABB920034865C /* Build configuration list for PBXNativeTarget "Simplified for Twitter Extension" */;
+			buildConfigurationList = EDD83F9B230ABB920034865C /* Build configuration list for PBXNativeTarget "Simplified Twitter Extension" */;
 			buildPhases = (
 				EDD83F80230ABB920034865C /* Sources */,
 				EDD83F81230ABB920034865C /* Frameworks */,
@@ -178,9 +178,9 @@
 			);
 			dependencies = (
 			);
-			name = "Simplified for Twitter Extension";
-			productName = "Simplified for Twitter Extension";
-			productReference = EDD83F84230ABB920034865C /* Simplified for Twitter Extension.appex */;
+			name = "Simplified Twitter Extension";
+			productName = "Simplified Twitter Extension";
+			productReference = EDD83F84230ABB920034865C /* Simplified Twitter Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -201,7 +201,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EDD83F6C230ABB910034865C /* Build configuration list for PBXProject "Simplified for Twitter" */;
+			buildConfigurationList = EDD83F6C230ABB910034865C /* Build configuration list for PBXProject "Simplified Twitter" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,8 +214,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EDD83F70230ABB910034865C /* Simplified for Twitter */,
-				EDD83F83230ABB920034865C /* Simplified for Twitter Extension */,
+				EDD83F70230ABB910034865C /* Simplified Twitter */,
+				EDD83F83230ABB920034865C /* Simplified Twitter Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -270,7 +270,7 @@
 /* Begin PBXTargetDependency section */
 		EDD83F87230ABB920034865C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EDD83F83230ABB920034865C /* Simplified for Twitter Extension */;
+			target = EDD83F83230ABB920034865C /* Simplified Twitter Extension */;
 			targetProxy = EDD83F86230ABB920034865C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -413,11 +413,11 @@
 		EDD83F9C230ABB920034865C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "Simplified for Twitter Extension/Simplified_Twitter_Extension.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Simplified Twitter Extension/Simplified_Twitter_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = JNXGJS86YQ;
-				INFOPLIST_FILE = "Simplified for Twitter Extension/Info.plist";
+				INFOPLIST_FILE = "Simplified Twitter Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -435,11 +435,11 @@
 		EDD83F9D230ABB920034865C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "Simplified for Twitter Extension/Simplified_Twitter_Extension.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Simplified Twitter Extension/Simplified_Twitter_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = JNXGJS86YQ;
-				INFOPLIST_FILE = "Simplified for Twitter Extension/Info.plist";
+				INFOPLIST_FILE = "Simplified Twitter Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -459,12 +459,12 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Simplified for Twitter/Simplified_Twitter.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Simplified Twitter/Simplified_Twitter.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = JNXGJS86YQ;
-				INFOPLIST_FILE = "Simplified for Twitter/Info.plist";
+				INFOPLIST_FILE = "Simplified Twitter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -482,12 +482,12 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Simplified for Twitter/Simplified_Twitter.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Simplified Twitter/Simplified_Twitter.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = JNXGJS86YQ;
-				INFOPLIST_FILE = "Simplified for Twitter/Info.plist";
+				INFOPLIST_FILE = "Simplified Twitter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -503,7 +503,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EDD83F6C230ABB910034865C /* Build configuration list for PBXProject "Simplified for Twitter" */ = {
+		EDD83F6C230ABB910034865C /* Build configuration list for PBXProject "Simplified Twitter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EDD83F99230ABB920034865C /* Debug */,
@@ -512,7 +512,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EDD83F9B230ABB920034865C /* Build configuration list for PBXNativeTarget "Simplified for Twitter Extension" */ = {
+		EDD83F9B230ABB920034865C /* Build configuration list for PBXNativeTarget "Simplified Twitter Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EDD83F9C230ABB920034865C /* Debug */,
@@ -521,7 +521,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EDD83F9F230ABB920034865C /* Build configuration list for PBXNativeTarget "Simplified for Twitter" */ = {
+		EDD83F9F230ABB920034865C /* Build configuration list for PBXNativeTarget "Simplified Twitter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EDD83FA0230ABB920034865C /* Debug */,

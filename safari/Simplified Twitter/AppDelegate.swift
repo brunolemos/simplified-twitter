@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Simplified for Twitter
+//  Simplified Twitter
 //
 //  Created by Bruce Roettgers on 19.08.19.
 //  Copyright © 2019 Dirk Hulverscheidt. All rights reserved.
