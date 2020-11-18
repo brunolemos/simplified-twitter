@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EDD83F70230ABB910034865C"
-               BuildableName = "Simplified Twitter.app"
-               BlueprintName = "Simplified Twitter"
-               ReferencedContainer = "container:Simplified Twitter.xcodeproj">
+               BuildableName = "Simplified for Twitter.app"
+               BlueprintName = "Simplified for Twitter"
+               ReferencedContainer = "container:Simplified for Twitter.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EDD83F70230ABB910034865C"
-            BuildableName = "Simplified Twitter.app"
-            BlueprintName = "Simplified Twitter"
-            ReferencedContainer = "container:Simplified Twitter.xcodeproj">
+            BuildableName = "Simplified for Twitter.app"
+            BlueprintName = "Simplified for Twitter"
+            ReferencedContainer = "container:Simplified for Twitter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EDD83F70230ABB910034865C"
-            BuildableName = "Simplified Twitter.app"
-            BlueprintName = "Simplified Twitter"
-            ReferencedContainer = "container:Simplified Twitter.xcodeproj">
+            BuildableName = "Simplified for Twitter.app"
+            BlueprintName = "Simplified for Twitter"
+            ReferencedContainer = "container:Simplified for Twitter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

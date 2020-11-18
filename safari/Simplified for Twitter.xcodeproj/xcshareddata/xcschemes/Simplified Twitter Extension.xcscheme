@@ -16,9 +16,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EDD83F83230ABB920034865C"
-               BuildableName = "Simplified Twitter Extension.appex"
-               BlueprintName = "Simplified Twitter Extension"
-               ReferencedContainer = "container:Simplified Twitter.xcodeproj">
+               BuildableName = "Simplified for Twitter Extension.appex"
+               BlueprintName = "Simplified for Twitter Extension"
+               ReferencedContainer = "container:Simplified for Twitter.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -30,9 +30,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EDD83F70230ABB910034865C"
-               BuildableName = "Simplified Twitter.app"
-               BlueprintName = "Simplified Twitter"
-               ReferencedContainer = "container:Simplified Twitter.xcodeproj">
+               BuildableName = "Simplified for Twitter.app"
+               BlueprintName = "Simplified for Twitter"
+               ReferencedContainer = "container:Simplified for Twitter.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EDD83F70230ABB910034865C"
-            BuildableName = "Simplified Twitter.app"
-            BlueprintName = "Simplified Twitter"
-            ReferencedContainer = "container:Simplified Twitter.xcodeproj">
+            BuildableName = "Simplified for Twitter.app"
+            BlueprintName = "Simplified for Twitter"
+            ReferencedContainer = "container:Simplified for Twitter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EDD83F70230ABB910034865C"
-            BuildableName = "Simplified Twitter.app"
-            BlueprintName = "Simplified Twitter"
-            ReferencedContainer = "container:Simplified Twitter.xcodeproj">
+            BuildableName = "Simplified for Twitter.app"
+            BlueprintName = "Simplified for Twitter"
+            ReferencedContainer = "container:Simplified for Twitter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
