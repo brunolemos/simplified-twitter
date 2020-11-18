@@ -1,6 +1,6 @@
 ;(function () {
   function update() {
-    const innerWidth = Math.min(window.outerWidth || 0, 800)
+    const innerWidth = Math.min(window.outerWidth || 800, 800)
     if (window.innerWidth === innerWidth) return
 
     window.innerWidth = innerWidth
