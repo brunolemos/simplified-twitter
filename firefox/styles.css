@@ -2,3 +2,9 @@
   -webkit-flex-grow: 1 !important;
   flex-grow: 1 !important;
 }
+
+@media (min-width: 800px) {
+  [role='listbox'] {
+    max-width: 500px !important;
+  }
+}
