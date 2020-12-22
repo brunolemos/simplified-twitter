@@ -6,11 +6,11 @@
 
 #### Download the extension for:
 
-- [Chrome](https://chrome.google.com/webstore/detail/simplified-twitter/kfopmjhmejbgomgeajemgpgpbckpoopg)
-- [Edge](https://microsoftedge.microsoft.com/addons/detail/simplified-twitter/ngkkffooahinlplicbokppbmhmdglken)
-- [Other Chromium browsers](https://github.com/brunolemos/simplified-twitter/raw/master/chrome/simplified-twitter-extension.crx) (Opera, Brave, etc)
-- [Firefox](https://addons.mozilla.org/en-US/firefox/addon/simplified-twitter/)
 - [Safari](https://apps.apple.com/app/id1479307973?mt=12)
+- [Firefox](https://addons.mozilla.org/en-US/firefox/addon/simplified-twitter/)
+- [Edge](https://microsoftedge.microsoft.com/addons/detail/simplified-twitter/ngkkffooahinlplicbokppbmhmdglken)
+- [Chrome](https://chrome.google.com/webstore/detail/simplified-twitter/kfopmjhmejbgomgeajemgpgpbckpoopg)
+- [Other Chromium browsers](https://github.com/brunolemos/simplified-twitter/raw/master/chrome/simplified-twitter-extension.crx) (Opera, Brave, etc)
 
 #### Other links:
 
