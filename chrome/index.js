@@ -1,7 +1,7 @@
 ;(function () {
   function script() {
     function update() {
-      const width = Math.min(window.outerWidth || 800, 800)
+      const width = Math.min(document.documentElement.offsetWidth || 800, 800)
       if (window.innerWidth === width && document.documentElement.clientWidth === width) return
 
       window.__defineGetter__('innerWidth', () => width)
