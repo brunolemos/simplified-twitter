@@ -12,11 +12,6 @@
 - [Chrome](https://chrome.google.com/webstore/detail/simplified-twitter/kfopmjhmejbgomgeajemgpgpbckpoopg)
 - [Other Chromium browsers](https://github.com/brunolemos/simplified-twitter/raw/master/chrome/simplified-twitter-extension.crx) (Opera, Brave, etc)
 
-#### Other links:
-
-- [Tweet](https://twitter.com/brunolemos/status/1154309740694003713?s=20)
-- [Product Hunt](https://www.producthunt.com/posts/simplified-twitter)
-
 #### Why is this better than the alternatives?
 
 1. They all make the same mistake: Mess with CSS and make some things worse. Some add shadows, some add distracting hover effects, some move buttons too far away from the center.
@@ -25,9 +20,13 @@
 
 This extension tricks Twitter to think the window is smaller, and Twitter adjusts everything by itself. We don't need to apply hacky styles, twitter is already responsive by default.
 
+#### Feedback
+
 > "I've tried a lot of similar extensions, and this one provides the best result."
 
 > "Literally 10/10"
+
+See more on [Product Hunt](https://www.producthunt.com/posts/simplified-twitter)
 
 ### Author
 
