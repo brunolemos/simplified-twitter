@@ -8,6 +8,7 @@
   "content_scripts": [
     {
       "matches": [
+        "https://x.com/*",
         "https://twitter.com/*",
         "https://mobile.twitter.com/*"
       ],

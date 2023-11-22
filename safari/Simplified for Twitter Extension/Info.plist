@@ -50,6 +50,7 @@
 		<dict>
 			<key>Allowed Domains</key>
 			<array>
+				<string>*.x.com</string>
 				<string>*.twitter.com</string>
 			</array>
 			<key>Level</key>
