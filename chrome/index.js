@@ -6,12 +6,14 @@
 
       window.__defineGetter__('innerWidth', () => width)
       document.documentElement.__defineGetter__('clientWidth', () => width)
+      if (window.visualViewport) window.visualViewport.__defineGetter__('width', () => width)
 
       window.dispatchEvent(new Event('resize'))
     }
 
     window.addEventListener('load', update)
     window.addEventListener('resize', update)
+    if (window.visualViewport) window.visualViewport.addEventListener('resize', update)
     document.addEventListener('visibilitychange', update)
     update()
   }
