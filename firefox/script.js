@@ -8,6 +8,7 @@
     if (window.visualViewport) window.visualViewport.__defineGetter__('width', () => width)
 
     window.dispatchEvent(new Event('resize'))
+    if (window.visualViewport) window.visualViewport.dispatchEvent(new Event('resize'))
   }
 
   window.addEventListener('load', update)
