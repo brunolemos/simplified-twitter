@@ -8,7 +8,7 @@ Simplified Twitter does not collect, store nor send any information about the us
 
 ### How it works
 
-It runs a small JavaScript code inside *.twitter.com website to make it behave like it does on smaller screens.
+It runs a small JavaScript code inside *.twitter.com and *.x.com websites to make it behave like it does on smaller screens.
 
 ### Support
 Feel free to open an issue at https://github.com/brunolemos/simplified-twitter.<br/>

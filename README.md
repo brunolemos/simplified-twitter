@@ -2,7 +2,7 @@
 
 ### The new Twitter, without distractions
 
-[![simplified-twitter-comparison-gif](./assets/simplified_twitter_before_after.gif)](https://twitter.com/brunolemos/status/1154309740694003713?s=20)
+[![simplified-twitter-comparison-gif](./assets/simplified_twitter_before_after.gif)](https://x.com/brunolemos/status/1154309740694003713?s=20)
 
 #### Download the extension for:
 
@@ -14,7 +14,7 @@
 
 #### Other links:
 
-- [Tweet](https://twitter.com/brunolemos/status/1154309740694003713?s=20)
+- [Tweet](https://x.com/brunolemos/status/1154309740694003713?s=20)
 - [Product Hunt](https://www.producthunt.com/posts/simplified-twitter)
 
 #### Why is this better than the alternatives?
@@ -31,6 +31,6 @@ This extension tricks Twitter to think the window is smaller, and Twitter adjust
 
 ### Author
 
-Follow me on Twitter: [@brunolemos](https://twitter.com/brunolemos)
+Follow me on Twitter: [@brunolemos](https://x.com/brunolemos)
 
-<a href="https://twitter.com/brunolemos" target="_blank"><img src="https://github.com/brunolemos.png?size=200" height="100" /></a>
+<a href="https://x.com/brunolemos" target="_blank"><img src="https://github.com/brunolemos.png?size=200" height="100" /></a>
