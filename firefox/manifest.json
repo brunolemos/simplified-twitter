@@ -1,10 +1,20 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Simplified Twitter/X",
   "version": "1.8.1",
   "description": "Remove distractions from the new Twitter/X layout",
   "short_name": "Simplified Twitter/X",
-  "permissions": [],
+  "permissions": ["scripting"],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{356f451b-e441-4bf4-8683-f33a29c38cc6}"
+    }
+  },
+  "host_permissions": [
+    "https://x.com/*",
+    "https://twitter.com/*",
+    "https://mobile.twitter.com/*"
+  ],
   "content_scripts": [
     {
       "matches": [
@@ -14,11 +24,16 @@
       ],
       "css": [
         "styles.css"
-      ],
-      "js": [
-        "inject.js",
-        "script.js"
       ]
+    }
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["script.js"],
+      "matches": ["https://x.com/*", "https://twitter.com/*", "https://mobile.twitter.com/*"]
     }
   ],
   "icons": {
