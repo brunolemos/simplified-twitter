@@ -2,7 +2,7 @@
 
 ### The new Twitter, without distractions
 
-[![simplified-twitter-comparison-gif](./assets/screenshot.gif)](https://twitter.com/brunolemos/status/1154309740694003713?s=20)
+[![simplified-twitter-comparison-gif](./assets/simplified_twitter_before_after.gif)](https://twitter.com/brunolemos/status/1154309740694003713?s=20)
 
 #### Download the extension for:
 
