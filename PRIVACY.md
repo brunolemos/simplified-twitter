@@ -1,10 +1,10 @@
 # Privacy Policy
 
-## Simplified Twitter
+## Simplified Twitter/X
 
 ### Personal Information
 
-Simplified Twitter does not collect, store nor send any information about the user neither the device.
+Simplified Twitter/X does not collect, store nor send any information about the user neither the device.
 
 ### How it works
 

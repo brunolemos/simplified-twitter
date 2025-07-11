@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
-  "name": "Simplified Twitter",
+  "name": "Simplified Twitter/X",
   "version": "1.8.1",
-  "description": "Remove distractions from the new Twitter layout",
-  "short_name": "Simplified Twitter",
+  "description": "Remove distractions from the new Twitter/X layout",
+  "short_name": "Simplified Twitter/X",
   "permissions": [],
   "content_scripts": [
     {

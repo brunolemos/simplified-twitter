@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Simplified for Twitter Extension</string>
+	<string>Simplified for Twitter/X Extension</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -60,7 +60,7 @@
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2019 Dirk Hulverscheidt. All rights reserved.</string>
 	<key>NSHumanReadableDescription</key>
-	<string>Remove distractions from the new twitter.
+	<string>Remove distractions from the new Twitter/X.
 </string>
 </dict>
 </plist>

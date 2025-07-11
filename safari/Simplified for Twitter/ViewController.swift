@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Simplified for Twitter
+//  Simplified for Twitter/X
 //
 //  Created by Bruno Lemos on 13/11/20.
 //
@@ -9,7 +9,7 @@ import Cocoa
 import SafariServices.SFSafariApplication
 import SafariServices.SFSafariExtensionManager
 
-let appName = "Simplified for Twitter"
+let appName = "Simplified for Twitter/X"
 let extensionBundleIdentifier = "org.brunolemos.simplifiedtwitter.extension"
 
 class ViewController: NSViewController {
